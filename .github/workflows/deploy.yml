@@ -35,19 +35,19 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: npm # o pnpm / yarn
+          cache: yarn # Corregido para usar yarn cache
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Install dependencies
-        run: yarn install # o pnpm install / yarn install / bun install
+        run: yarn install
       - name: Build with VitePress
         run: |
           yarn build
-          touch docs/.vitepress/dist/.nojekyll
+          touch .vitepress/dist/.nojekyll
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/.vitepress/dist
+          path: .vitepress/dist
 
   # Trabajo de implantación
   deploy:
