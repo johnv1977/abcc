@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   srcDir: "docs",
+  base: "/abcc/",
   
   title: "ABCC",
   description: "An obvious rule structure to accelerate collaboration between humans and AI assistants.",
@@ -24,15 +25,15 @@ export default defineConfig({
           { text: 'Config', link: '/config' }
         ]
       },
-      {
-        text: 'Frameworks',
-        items: [
-          { text: 'Angular', link: '/' },
-          { text: 'Flutter', link: '/' },
-          { text: 'React', link: '/' },
-          { text: 'Vue', link: '/' }
-        ]
-      }
+      // {
+      //   text: 'Frameworks',
+      //   items: [
+      //     { text: 'Angular', link: '/' },
+      //     { text: 'Flutter', link: '/' },
+      //     { text: 'React', link: '/' },
+      //     { text: 'Vue', link: '/' }
+      //   ]
+      // }
     ],
 
     socialLinks: [
