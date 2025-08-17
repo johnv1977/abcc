@@ -5,8 +5,10 @@ export default defineConfig({
   srcDir: "docs",
   base: "/abcc/",
   
-  title: "ABCC",
+  title: "abcc - Codebase Architecture for Frontend and Mobile Applications",
   description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
+
+  head: [['link', { rel: 'icon', href: '/abcc/favicon.ico' }]],
   
   // Configuración de idiomas
   locales: {
@@ -67,6 +69,10 @@ export default defineConfig({
   },
   
   themeConfig: {
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2023-present <a href="https://github.com/johnv1977" target="_blank"> John Valencia</a>'
+    },
     // Configuración global del tema
     socialLinks: [
       { icon: 'github', link: 'https://github.com/johnv1977/abcc' }

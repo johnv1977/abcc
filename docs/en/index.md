@@ -6,6 +6,10 @@ hero:
   name: Codebase architecture
   text: for Frontend and Mobile Applications
   tagline: An obvious structure with simple rules to accelerate collaboration. Designed for modern teams, humans, and AI assistants. Predictable, scalable, and universally understandable.
+  image:
+    light: /images/abcc_isotipo_light_2.png
+    dark: /images/abcc_isotipo_dark_2.png
+    alt: ABCC Isotipo
   actions:
     - theme: brand
       text: Get Started
@@ -13,6 +17,7 @@ hero:
     - theme: alt
       text: Github
       link: https://github.com/johnv1977/abcc
+      target: _blank
 
 features:
   - title: 🎯 Radical Clarity
