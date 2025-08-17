@@ -6,25 +6,25 @@ export default defineConfig({
   base: "/abcc/",
   
   title: "ABCC",
-  description: "An obvious rule structure to accelerate collaboration between humans and AI assistants.",
+  description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
   
   // Configuración de idiomas
   locales: {
     root: {
-      label: 'English',
-      lang: 'en',
+      label: 'Español',
+      lang: 'es',
       title: "ABCC",
-      description: "An obvious rule structure to accelerate collaboration between humans and AI assistants.",
+      description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
       themeConfig: {
         nav: [
-          { text: 'Home', link: '/' },
-          { text: 'Docs', link: '/abcc' }
+          { text: 'Inicio', link: '/' },
+          { text: 'Documentación', link: '/abcc' }
         ],
         sidebar: [
           {
-            text: 'Codebase Architecture',
+            text: 'Arquitectura de Código',
             items: [
-              { text: 'What is ABCC?', link: '/abcc' },
+              { text: '¿Qué es ABCC?', link: '/abcc' },
               { text: 'App', link: '/app' },
               { text: 'Base', link: '/base' },
               { text: 'Common', link: '/common' },
@@ -37,25 +37,25 @@ export default defineConfig({
         ]
       }
     },
-    es: {
-      label: 'Español',
-      lang: 'es',
+    en: {
+      label: 'English',
+      lang: 'en',
       title: "ABCC",
-      description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
+      description: "An obvious rule structure to accelerate collaboration between humans and AI assistants.",
       themeConfig: {
         nav: [
-          { text: 'Inicio', link: '/es/' },
-          { text: 'Documentación', link: '/es/abcc' }
+          { text: 'Home', link: '/en/' },
+          { text: 'Docs', link: '/en/abcc' }
         ],
         sidebar: [
           {
-            text: 'Arquitectura de Código',
+            text: 'Codebase Architecture',
             items: [
-              { text: '¿Qué es ABCC?', link: '/es/abcc' },
-              { text: 'App', link: '/es/app' },
-              { text: 'Base', link: '/es/base' },
-              { text: 'Common', link: '/es/common' },
-              { text: 'Config', link: '/es/config' }
+              { text: 'What is ABCC?', link: '/en/abcc' },
+              { text: 'App', link: '/en/app' },
+              { text: 'Base', link: '/en/base' },
+              { text: 'Common', link: '/en/common' },
+              { text: 'Config', link: '/en/config' }
             ]
           }
         ],
