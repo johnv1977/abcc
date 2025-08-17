@@ -17,55 +17,8 @@ La organización interna de `app` se basa en **módulos de funcionalidad** o *fe
 * **NO DEBE** contener código que sea 100% reutilizable en *otro proyecto*. Eso pertenece a `base`.
 * Un módulo dentro de `app` **PUEDE** usar elementos de `common` y `base`, pero **NUNCA** debe importar desde otro módulo hermano (ej. `app/profile` no debe importar desde `app/auth`).
 
-## Ejemplo de Estructura (Proyecto Pequeño)
-```
-app/
-├── auth/
-│   ├── screens/
-│   │   ├── login_screen.dart
-│   │   └── password_recovery_screen.dart
-│   ├── widgets/
-│   │   └── login_form.dart
-│   └── view_models/
-│       └── auth_view_model.dart
-├── profile/
-│   ├── screens/
-│   │   ├── profile_details_screen.dart
-│   │   └── edit_profile_screen.dart
-│   └── view_models/
-│       └── profile_view_model.dart
-└── products/
-├── screens/
-│   ├── product_list_screen.dart
-│   └── product_detail_screen.dart
-├── services/
-│   └── product_api_service.dart
-└── models/
-└── product_model.dart
-```
-## Ejemplo de Estructura (Proyecto Mediano / Grande)
-```
-app/
-├── auth/
-│   ├── screens/
-│   │   ├── login_screen.dart
-│   │   └── password_recovery_screen.dart
-│   ├── widgets/
-│   │   └── login_form.dart
-│   └── view_models/
-│       └── auth_view_model.dart
-├── profile/
-│   ├── screens/
-│   │   ├── profile_details_screen.dart
-│   │   └── edit_profile_screen.dart
-│   └── view_models/
-│       └── profile_view_model.dart
-└── products/
-├── screens/
-│   ├── product_list_screen.dart
-│   └── product_detail_screen.dart
-├── services/
-│   └── product_api_service.dart
-└── models/
-└── product_model.dart
-```
+## Estructura de carpetas
+::: code-group
+<<< @/snippets/app_folders.txt#app[Default applitactions]
+<<< @/snippets/app_folders_small.txt#small[Small applitactions]
+:::

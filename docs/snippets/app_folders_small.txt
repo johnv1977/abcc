@@ -1,0 +1,7 @@
+app/
+├── components/
+├── pages/
+├── hooks/
+├── services/
+├── utils/
+└── context/

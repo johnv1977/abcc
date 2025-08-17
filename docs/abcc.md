@@ -13,15 +13,7 @@ La estructura de ABCC se fundamenta en una clara separación de responsabilidade
 3.  **`common`**: Las **PIEZAS** reutilizables. Son los componentes, widgets y utilidades compartidos *dentro* del proyecto.
 4.  **`config`**: La **PUESTA A PUNTO**. Todo lo relacionado con la configuración, inicialización y constantes del proyecto.
 
-```
-root
-  └──node_modules/
-  └──lib|src/
-      ├── app/
-      ├── base/
-      ├── common/
-      └── config/
-```
+<<< @/snippets/abc_folders.txt
 
 ## Diseñado para la Colaboración Humano-IA
 

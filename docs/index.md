@@ -12,7 +12,7 @@ hero:
       link: /abcc
     - theme: alt
       text: Github
-      link: https://github.com/tu-usuario/abcc-architecture # Reemplazar con tu URL
+      link: https://github.com/johnv1977/abcc
 
 features:
   - title: 🎯 Claridad Radical

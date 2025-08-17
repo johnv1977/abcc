@@ -1,0 +1,14 @@
+app/
+├── auth/
+|   ├── components/
+|   └── .../
+├── profile/
+|   ├── components/
+|   └── .../
+└── products/
+    ├── components/
+    ├── pages/
+    ├── hooks/
+    ├── services/
+    ├── utils/
+    └── context/
