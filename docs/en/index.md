@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: abcc - Codebase Architecture for Frontend and Mobile Applications
 
 hero:
   name: Codebase architecture

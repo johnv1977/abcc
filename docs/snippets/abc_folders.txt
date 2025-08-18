@@ -1,6 +1,5 @@
 root
-  ├──node_modules/
-  └──lib|src/
+  └──lib o src/
       ├── app/
       ├── base/
       ├── common/

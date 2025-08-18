@@ -1,6 +1,7 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: abcc - Arquitectura de Código para Aplicaciones Frontend y Móviles
 
 hero:
   name: Codebase architecture
@@ -9,7 +10,7 @@ hero:
   image:
     light: /images/abcc_isotipo_light_2.png
     dark: /images/abcc_isotipo_dark_2.png
-    alt: ABCC Isotipo
+    alt: abcc Isotipo
   actions:
     - theme: brand
       text: Empezar Ahora
@@ -20,12 +21,12 @@ hero:
       target: _blank
 
 features:
-  - title: 🎯 Claridad Radical
-    details: Cero ambigüedad. Cada archivo tiene un lugar lógico y predecible. Reduce la carga cognitiva y acelera la incorporación de nuevos miembros al equipo.
-  - title:  Escalabilidad Integrada
-    details: Crece contigo. La estructura está pensada para pasar de un proyecto pequeño a una aplicación empresarial sin necesidad de refactorizaciones dolorosas.
+  - title: 🎯 Cero ambigüedad
+    details: Cada archivo tiene un lugar lógico y predecible. Reduce la carga cognitiva y acelera la incorporación de nuevos miembros al equipo.
+  - title: 📈 Escalabilidad Integrada
+    details: La estructura está pensada para pasar de un proyecto pequeño a una aplicación empresarial sin necesidad de refactorizaciones dolorosas.
   - title: 🤖 Optimizado para IA
-    details: Incluye reglas y directivas claras para que los asistentes de IA (como Gemini, Copilot, etc.) generen y validen código que se adhiere perfectamente a la arquitectura.
-  - title:  Universal y Agnóstico
-    details: Aunque nacido en el ecosistema Frontend y Flutter, sus principios son aplicables a casi cualquier proyecto de software, promoviendo un lenguaje común entre equipos.
+    details: Incluye reglas y directivas claras para que los asistentes de IA generen y validen código que se adhiere perfectamente a la arquitectura.
+  - title: 🌐 Universal y Agnóstico
+    details: Aunque inspirado en aplicaciones móviles, sus reglas se aplican a casi cualquier proyecto Frontend, creando un lenguaje común entre equipos.
 ---

@@ -15,34 +15,35 @@ export default defineConfig({
     root: {
       label: 'Español',
       lang: 'es',
-      title: "ABCC",
+      title: "abcc",
       description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
       themeConfig: {
         nav: [
-          { text: 'Inicio', link: '/' },
-          { text: 'Documentación', link: '/abcc' }
+          { text: 'Guía', link: '/guia' }
         ],
         sidebar: [
           {
-            text: 'Arquitectura de Código',
+            text: 'Fundamentos',
             items: [
-              { text: '¿Qué es ABCC?', link: '/abcc' },
+              { text: '¿Qué es abcc?', link: '/guia' },
+            ]
+          },
+          {
+            text: 'Arquitectura Base',
+            items: [
               { text: 'App', link: '/app' },
               { text: 'Base', link: '/base' },
               { text: 'Common', link: '/common' },
               { text: 'Config', link: '/config' }
             ]
           }
-        ],
-        socialLinks: [
-          { icon: 'github', link: 'https://github.com/johnv1977/abcc' }
         ]
       }
     },
     en: {
       label: 'English',
       lang: 'en',
-      title: "ABCC",
+      title: "abcc",
       description: "An obvious rule structure to accelerate collaboration between humans and AI assistants.",
       themeConfig: {
         nav: [
@@ -60,20 +61,22 @@ export default defineConfig({
               { text: 'Config', link: '/en/config' }
             ]
           }
-        ],
-        socialLinks: [
-          { icon: 'github', link: 'https://github.com/johnv1977/abcc' }
         ]
       }
     }
   },
   
   themeConfig: {
+    logo: {
+      dark: "/images/icon_base_dark.png",
+      light: "/images/icon_base_light.png"
+    },
+    
     footer: {
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2023-present <a href="https://github.com/johnv1977" target="_blank"> John Valencia</a>'
     },
-    // Configuración global del tema
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/johnv1977/abcc' }
     ]
