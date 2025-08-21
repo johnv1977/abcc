@@ -19,6 +19,6 @@ La organización interna de `app` se basa en **módulos de funcionalidad** o *fe
 
 ## Estructura de carpetas
 ::: code-group
-<<< @/snippets/app_folders.txt#app[Default applitactions]
-<<< @/snippets/app_folders_small.txt#small[Small applitactions]
+<<< @/snippets/app_folders.txt#app[Aplicaciones]
+<<< @/snippets/app_folders_small.txt#small[Aplicaciones pequeñas]
 :::

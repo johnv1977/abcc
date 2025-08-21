@@ -4,17 +4,17 @@ layout: home
 title: abcc - Arquitectura de Código para Aplicaciones Frontend y Móviles
 
 hero:
-  name: Codebase architecture
-  text: for Frontend and Mobile Applications
-  tagline: An obvious structure with simple rules for accelerate collaboration. Designed for modern teams, humans, and AI assistants. Predictable, scalable, and universally understandable.
+  name: Arquitectura<br>de Código
+  text: para Aplicaciones Móviles y Frontend
+  tagline: Una estructura obvía con reglas simples para acelerar la colaboración. Diseñada para equipos modernos con asistentes de IA. Predecible, escalable y entendible universalmente.
   image:
     light: /images/abcc_isotipo_light_2.png
     dark: /images/abcc_isotipo_dark_2.png
-    alt: abcc Isotipo
+    alt: Isotipo ABCC Arquitectura de Código
   actions:
     - theme: brand
       text: Empezar Ahora
-      link: /abcc
+      link: /es/guia
     - theme: alt
       text: Github
       link: https://github.com/johnv1977/abcc

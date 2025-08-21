@@ -1,6 +1,0 @@
-root
-  └──lib o src/
-      ├── app/
-      ├── base/
-      ├── common/
-      └── config/

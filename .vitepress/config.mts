@@ -19,22 +19,22 @@ export default defineConfig({
       description: "Una estructura de reglas obvia para acelerar la colaboración entre humanos y asistentes de IA.",
       themeConfig: {
         nav: [
-          { text: 'Guía', link: '/guia' }
+          { text: 'Guía', link: '/es/guia' }
         ],
         sidebar: [
           {
             text: 'Fundamentos',
             items: [
-              { text: '¿Qué es abcc?', link: '/guia' },
+              { text: '¿Qué es abcc?', link: '/es/guia' },
             ]
           },
           {
             text: 'Arquitectura Base',
             items: [
-              { text: 'App', link: '/app' },
-              { text: 'Base', link: '/base' },
-              { text: 'Common', link: '/common' },
-              { text: 'Config', link: '/config' }
+              { text: 'App', link: '/es/app' },
+              { text: 'Base', link: '/es/base' },
+              { text: 'Common', link: '/es/common' },
+              { text: 'Config', link: '/es/config' }
             ]
           }
         ]
